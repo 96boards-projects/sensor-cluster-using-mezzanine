@@ -27,7 +27,7 @@ Initially, make sure that the DragonBoard 410c is unplugged (powered off). Conec
 ## Building and Running:
 
 ```shell
-$ git clone https://github.com/96boards/projects.git
+$ git clone https://github.com/96boards-projects/sensor-cluster-using-mezzanine.git
 ```
 Open the Arduino IDE. Click on Open and from the browser select sensor-cluster-using-mezzanine.ino.
 Click on verify to verify the program. Then click on upload. This will ccompile the code and upload it onto the DragonBoard. Once that is done, click on the serial monitor icon on the top right corner.
