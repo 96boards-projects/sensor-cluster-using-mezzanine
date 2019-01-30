@@ -1,3 +1,55 @@
+---
+# Front Matter
+# Title of your project used for the breadcrumb title and meta title.
+title:  Sensor Cluster using Sensors Mezzanine on DragonBoard410c
+
+# Permalink your project will reside under on the 96boards.org website.
+# separate your title's words with dashes for SEO purposes.
+permalink: /projects/sensor-cluster/
+author: Sahaj Sarup
+
+# Add a description of your project
+description: The sensor cluster project basically aims at working with as many sensors as possible, making use of the Grove Starter Kit for the 96Boards and a Sensors Mezzanine board with a DragonBoard410c.
+
+# Add the names of your images which are stored in the sub folders here.
+# The first image is always used in the table at /projects/
+# This section is used to add a social media share image to your project.
+# Place the image you'd like to use when sharing on social media in the /assets/images/projects/
+# folder and adjust the following YAML accordingly.
+# High Res 1920 x 1080
+# regenerated on site build
+image: 
+    path: /assets/images/projects/placeholder.png
+#    list:
+#        - thumb.png
+#        - share.png
+#social:
+#  name: 96Boards
+#  links:
+#    - https://twitter.com/96boards
+#    - https://www.facebook.com/96Boards/
+#    - https://www.linkedin.com/company/96boards/
+#    - https://plus.google.com/+96Boards
+#    - https://github.com/96boards
+project:
+    # Difficulty level for your project <Beginner, Intermediate, Experienced>
+    #difficulty_level:
+    # - Beginner
+    # Boards that you have used in this project. For a full list of boards see 
+    # this file in the 96boards/website repo - _data/boards.yml
+    boards_used: 
+        - dragonboard410c
+        - sensors-mezzanine
+    # Verticals are catagories that your project belongs to. For a full list of verticals see 
+    # this file in the 96boards/website repo - _data/verticles.yml
+    verticals:
+        - Maker
+#Optional tags for your projects: meta-key words
+tags:
+- dragonboard410c
+- sensors-mezzanine
+---
+
 # Sensor Cluster using Sensors Mezzaine on DragonBoard410c
 The sensor cluster project basically aims at working with as many sensors as possible, making use of the [Grove Starter Kit for the 96Boards](https://www.seeedstudio.com/Grove-Starter-Kit-for-96Boards-p-2618.html) and a Sensors Mezzanine board with a DragonBoard410c.
 
